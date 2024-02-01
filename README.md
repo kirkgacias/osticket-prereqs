@@ -2,8 +2,8 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+<h1>osTicket - Prerequisites, Setup, and Installation</h1>
+This guide details the necessary requirements and steps for installing osTicket, an open-source help desk ticketing system.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -14,7 +14,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10</b> 
 
 <h2>List of Prerequisites</h2>
 
