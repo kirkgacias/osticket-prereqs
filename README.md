@@ -1,4 +1,4 @@
-<img width="758" alt="VM setup-windows 10" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/740bb7d9-fca2-49e5-b213-c80f2bdb4a3a"><p align="center">
+
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
