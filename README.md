@@ -31,6 +31,7 @@ This guide details the necessary requirements and steps for installing osTicket,
 <p>
 1. The first step is to create a virtual machine on Azure. 
 Choose the image or base operating machine as Windows 10 Pro, version 22H2.
+<p>
 <img width="758" alt="VM setup-windows 10" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/a22b387c-d396-4fe5-8db9-7c2677941a30">
 
 <p>
@@ -38,6 +39,7 @@ Choose the image or base operating machine as Windows 10 Pro, version 22H2.
 <p>
 Make sure to set the size to at least 2 vcpus and 16 GiB memory. 
 And confirm that RDP (3389) is allowed in "Select inbound ports" in order to allow Remote Desktop access to the VM. 
+<p>
 <img width="757" alt="VM inbound ports" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/3eb204b9-a099-4656-a4ec-9d8badb1f56b">
 
 
