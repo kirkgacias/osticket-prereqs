@@ -46,17 +46,21 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+2. Then click on the last check box to confirm an eligible Windows 10 license then proceed to "Review + create". A validation process will occur then once it has passed simply continue to create.
+
 </p>
 <br />
-
+3. Allow some time for your deployment to complete then find your VM's public IP address and copy it.
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1009" alt="VM IP ADDRESS" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/f7720ced-3abc-49ad-8292-c7969da636f1">
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+4. Open your Remote Desktop Connection app and paste the VM's IP and login with the same login credentials used to create the VM.
+<p>
+<img width="304" alt="Remote desktop app" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/8fee52fb-f841-4dd9-a3ff-07a5e8ea44c4">
+
 </p>
 <br />
