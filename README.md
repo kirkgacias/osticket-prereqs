@@ -62,7 +62,8 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 <p>
 4. Open your Remote Desktop Connection app and paste the VM's IP and login with the same login credentials used to create the VM.
 <p>
-<img width="304" alt="Remote desktop app" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/8fee52fb-f841-4dd9-a3ff-07a5e8ea44c4">
+<img width="302" alt="Remote desktop app" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/f331b259-db5b-447d-a05c-0367ef4297a0">
+
 
 </p>
 <br />
