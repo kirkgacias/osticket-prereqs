@@ -102,6 +102,28 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 <p> <strong> 7. Download and Install the Rewrite Module</strong></p>
 <p> Download and install the rewrite module (rewrite_amd64_en-US.msi) from the <a href="https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6"> installation files </a> </p>
 <p><img width="386" alt="rewrite module" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/177cc396-71e3-4658-9084-3e6fae94c1a5"></p>
+<p> <strong> 8.Create a new directory</strong></p>
+<p>Proceed to File Explorer and create the directory C:\PHP </p>
+<img width="647" alt="PHP" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/683aa120-d73c-4bce-bf6d-f58309fdac5c">
+<br>
+<br>
+<p><strong> 9.Download and install php-7.3.8-nts-Win32-VC15-x86.zip </strong></p>
+<p> Download and install php-7.3.8-nts-Win32-VC15-x86.zip from the <a href="https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6"> installation files </a> and unzip the contents into the newly created C:\PHP </p>
+<img width="631" alt="PHP zip" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/b43949f3-78a7-4ab8-a526-dfd4f159d2d6">
+<br>
+<p><strong> 10.Download and install VC_redist.x86.exe </strong></p>
+<br>
+<p><strong> 11.Download and install MySQL 5.5.62 </strong></p>
+<p> Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) from the <a href="https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6"> installation files </a>  and select the following configurations; </p>
+<p> [X] Typical Setup</p>
+<p>[X] Launch Configuration Wizard after install </p>
+<p>[X]Standard Configuration 
+</p>
+<br>
+<img width="383" alt="mysql" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/964a5ada-7d58-4efd-a0f2-6744610d999d">
+
+
+
 
 
 
