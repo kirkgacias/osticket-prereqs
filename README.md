@@ -59,14 +59,43 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 <p><strong>3.Find your VM's public IP address</strong></p>
 <p></p>Allow some time for your deployment to complete then find your VM's public IP address and copy it.</p>
 <p>
-<img width="1009" alt="VM IP ADDRESS" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/f7720ced-3abc-49ad-8292-c7969da636f1">
+<img width="1009" alt="VM IP ADDRESS" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/9b3ffb24-60c9-421d-a22e-c4035c1b9fe4">
+
 
 </p>
 <p>
-4. Open your Remote Desktop Connection app and paste the VM's IP and login with the same login credentials used to create the VM.
+<strong> 4.Connect to your VM using the Remote Desktop Connection app </strong> </p>
+<p>Open your Remote Desktop Connection app and paste the VM's IP and login with the same login credentials used to create the VM.</p>
 <p>
 <img width="302" alt="Remote desktop app" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/f331b259-db5b-447d-a05c-0367ef4297a0">
 
 
 </p>
 <br />
+<p><strong> 5. Enable IIS </strong></p>
+<p> Once the VM is open, we will have to install / enable IIS. Go to the Control Panel and open the programs applet. Under programs, select "Turn Windows features on or off".</p>
+<p> <img width="552" alt="CONTROL PANEL PROGRAMS" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/52defb88-4165-4b34-bbea-8292bc2890c8">
+
+  
+</p>
+<p>Then you will have to enable and expand the following features:</p>
+<p><img width="295" alt="Checklist 2" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/0b7b096f-43e7-47a8-a3ef-5500a360453d">
+</p>
+<p> [X] Internet Information Services</p>
+<p>[X] Web Management Tools </p>
+<p>[X] IIS Management Console </p>
+<p>[X] World Wide Web Services  </p>
+<p>[X] Application Development Features </p>
+<p>[X] CGI</p>
+<p>[X] Common HTTP Features</p>
+<br>
+<p> Click okay and the features should be enabled.</p>
+<br>
+<p> <strong> NOTE: To quickly test if the changes were applied succesfully, simply type 127.0.0.1 on your browser and the page below should appear. </strong></p>
+<img width="1094" alt="WINDOWS IIS" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/4836fb28-6fcf-403d-853b-f412c707295c">
+<br> <br>
+<p> <strong> 6. Download and Install PHP Manager</strong></p> <br>
+<p><img width="386" alt="PHP Manager" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/566a1c1c-3731-4ff7-a74c-10a21b84a851">
+</p> 
+<p> Simply download and install PHP manager from the <a href="https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6"> installation files (PHPManagerForIIS_V1.5.0.msi) </a>
+</p>
