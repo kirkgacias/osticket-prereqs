@@ -29,16 +29,17 @@ This guide details the necessary requirements and steps for installing osTicket,
 <p>
 </p>
 <p>
-1. The first step is to create a virtual machine on Azure. 
-Choose the image or base operating machine as Windows 10 Pro, version 22H2.
+<b>1.Create a Virtual Machine on Azure</b>
+<p>The first step is to create a virtual machine on Azure. 
+Choose the image or base operating machine as Windows 10 Pro, version 22H2.</p>
 <p>
 <img width="758" alt="VM setup-windows 10" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/a22b387c-d396-4fe5-8db9-7c2677941a30">
 
 <p>
 </p>
 <p>
-Make sure to set the size to at least 2 vcpus and 16 GiB memory. 
-And confirm that RDP (3389) is allowed in "Select inbound ports" in order to allow Remote Desktop access to the VM. 
+<strong> NOTE: Make sure to set the size to at least 2 vcpus and 16 GiB memory. 
+And confirm that RDP (3389) is allowed in "Select inbound ports" in order to allow Remote Desktop access to the VM.</strong> </p>
 <p>
 <img width="757" alt="VM inbound ports" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/3eb204b9-a099-4656-a4ec-9d8badb1f56b">
 
@@ -50,11 +51,13 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 <p>
 </p>
 <p>
-2. Then click on the last check box to confirm an eligible Windows 10 license then proceed to "Review + create". A validation process will occur then once it has passed simply continue to create.
+<b>2. Review and Create</b> </p>
+<p>Click on the last check box to confirm an eligible Windows 10 license then proceed to "Review + create". A validation process will occur then once it has passed simply continue to create.</p>
 
 </p>
-<br />
-3. Allow some time for your deployment to complete then find your VM's public IP address and copy it.
+<br>
+<p><strong>3.Find your VM's public IP address</strong></p>
+<p></p>Allow some time for your deployment to complete then find your VM's public IP address and copy it.</p>
 <p>
 <img width="1009" alt="VM IP ADDRESS" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/f7720ced-3abc-49ad-8292-c7969da636f1">
 
