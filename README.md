@@ -18,11 +18,12 @@ This guide details the necessary requirements and steps for installing osTicket,
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- IIS
+- PHP Manager
+- VC_redistx86
+- MySQL 5.5.62
+- Rewrite Module
+- Heidi SQL
 
 <h2>Installation Steps</h2>
 
@@ -167,6 +168,95 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 <p><strong> 18.Click on Browse *80 to launch osTicket</strong></p>
 <p> On the right side of the window, click on browse *80 </p>
 <img width="623" alt="browse80" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/53e70118-0357-4f5e-aa56-77560edec238">
+<br>
+<br>
+<br>
+<p><strong>This should then lead to your browser opening osTicket</strong>.</p>
+<br>
+<br>
+<img width="664" alt="osTicket browser" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/258689e2-a099-43e1-a555-a70eb7ad1e9d">
+<br>
+<br>
+<br>
+<p><strong> 19.Enable extensions</strong></p>
+<p>Open IIS and click on PHP Manager and select "enable or disable extension". </p>
+<p>Enable the following extensions:</p>
+<p>[X]Enable: php_imap.dll</p>
+<p>[X]Enable: php_intl.dll</p>
+<p>[X]Enable: php_opcache.dll</p>
+<img width="273" alt="php enable 2" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/f384957a-2228-47d9-9249-987c929eb691">
+<br>
+<br>
+<br>
+<p><strong> 20.Refresh osTicket</strong></p>
+<p>Refresh the osTicket page on the browser and notice some extensions will now appear active.</p>
+<img width="608" alt="OSticket changes" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/5d6aded2-86bf-44b8-b20f-5035e912cd44">
+<br>
+<br>
+<br>
+
+<p><strong> 21.Rename ost-config.ph</strong></p>
+<p> Under C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php, rename "ost-sampleconfig.ph" to "ost-config.ph"</p>
+<img width="527" alt="ostconfig rename" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/1dcd19e8-6b76-4d83-9d59-17dc4ef5b28f">
+<br>
+<br>
+<br>
+<p><strong> 22.Change ost-config.ph permissions</strong></p>
+<p>Change ost-config.php permissions by right clicking and selecting</p>
+<p>Properties -> Security -> Advance -> Disable inheritance</p> 
+<p>Select remove all inherited permissions and add everyone as a principal. Select all boxes to ensure all permissions are granted. </p>
+<img width="571" alt="Permissions" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/d634bc06-dcc0-4b41-814d-1f7de0afa0bf">
+<p><strong>.</strong></p>
+<p><strong>.</strong></p>
+<p><strong> 23.Continue osTicket installation</strong></p>
+<p> Continue the osTicket installer on your browser by filling the first half of the page.</p>
+<img width="611" alt="osticket signup" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/1df4ef77-85f3-4f36-bf93-44ce3e910d64">
+<br>
+<br>
+<p><strong>NOTE: Don't worry about the database credentials. We'll fill those out later.</strong> </p>
+<br>
+<p><strong>.</strong></p>
+<p><strong>.</strong></p>
+<p><strong>24.Download and install Heidi SQL from the installation files</strong></p>
+<p>Open Heidi SQL and create a new session. Make sure to fill in the username as root and create a password. After filling up your credentials now click open and a new session should show up.
+</p>
+<p><strong>.</strong></p>
+<p><strong>.</strong></p>
+<p><strong>.</strong></p>
+<p><strong>25.Create new database </strong></p>
+<p>On the left side of the window, right click on "Unnamed" and click create new database and name it "osTicket".</p>
+<img width="512" alt="SQL" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/eaa5aa61-2eea-4406-a7d7-fa77616dbe16">
+<br>
+<br>
+<p><strong>.</strong></p>
+<p><strong>.</strong></p>
+<p><strong>26.Finish signing up</strong></p>
+<p>Then go back to your osTicket browser and fill up the missing credentials. 
+It should look something like this.</p>
+<img width="308" alt="osticket final signup" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/a185574b-775a-49fb-9468-c5d82033e823">
+<p><strong>.</strong></p>
+<p><strong>.</strong></p>
+<p><strong>27. Finalize osTicket installation</strong></p>
+<p>Click install and osTicket should begin setting up. </p>
+<p><strong>.</strong></p>
+<p><strong>.</strong></p>
+<h2> Final cleanup steps</h2>
+<p>[X] Delete "setup" file located at C:\inetpub\wwwroot\osTicket\setup</p>
+<p>[X] Set permissions of "ost-config.php" to read only.</p>
+<p> File is located at C:\inetpub\wwwroot\osTicket\include\ost-config.php</p>
+<br>
+<br>
+<h1>Congratulations!!! &#127881; you just installed osTicket</h1>
+
+
+
+
+
+
+
+
+
+
 
 
 
