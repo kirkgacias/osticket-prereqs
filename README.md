@@ -121,6 +121,31 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 </p>
 <br>
 <img width="383" alt="mysql" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/964a5ada-7d58-4efd-a0f2-6744610d999d">
+<br>
+<p><strong> 12.Launch IIS as an administrator</strong></p>
+<p> Search for IIS in the windows search bar and right click it and select open as administrator</p>
+<br>
+<p><strong> 13.Register PHP Manager </strong></p>
+<br>
+<img width="682" alt="PHP registration 2" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/a3282eb4-90ea-474b-9259-33bfa4d01957">
+
+<br>
+<br>
+<p><strong> NOTE: Registration will require you to provide a path to "php-cgie.exe". Simply lead it to the PHP folder previously created and you will find the file it is asking for. 
+</strong></p>
+<br>
+<img width="623" alt="PHP path " src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/ac6d2463-c9ef-4803-b3d6-3e5d4a9bc177">
+
+<br>
+<p>
+</p> 
+<p><strong> 14. Restart the IIS server</strong></p>
+<br>
+<img width="623" alt="Restart IIS" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/89c60a3c-2556-4909-ad78-4ae501b38da1">
+
+
+
+
 
 
 
