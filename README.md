@@ -139,9 +139,44 @@ And confirm that RDP (3389) is allowed in "Select inbound ports" in order to all
 <br>
 <p>
 </p> 
-<p><strong> 14. Restart the IIS server</strong></p>
+<p><strong> 14. Restart the IIS server</strong></p> 
+<p> The restart button can be found on the right side of the window.</p>
 <br>
 <img width="623" alt="Restart IIS" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/89c60a3c-2556-4909-ad78-4ae501b38da1">
+<br>
+<br>
+<p><strong> 15.Download and install osTicket</strong></p>
+<p> Download and install osTicket v1.15.8 from the installation files and extract the contents to c:\inetpub\wwwroot </p>
+<br>
+<img width="547" alt="inetpub" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/bea57cd3-27f4-4564-9cb4-1bfd7492b6ca">
+<p> Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”</p>
+<br>
+<br>
+<p><strong> 16.Restart the IIS server again.</strong></p>
+<img width="623" alt="Restart IIS" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/89c60a3c-2556-4909-ad78-4ae501b38da1">
+<br>
+<br>
+<p><strong> 17.Launch osTicket </strong></p>
+<p>On the left hand side of IIS, Expand on the VM name -> Sites - > Default Website -> osTicket </p>
+<img width="623" alt="osTicket" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/93165771-1d49-430c-a66a-cc2cf3c87e93">
+<p></p>
+<p><strong>NOTE: Make sure to click on osTicket</strong></p>
+<p><strong>.</strong></p>
+<p><strong>.</strong></p>
+<p><strong>.</strong></p>
+<p><strong> 18.Click on Browse *80 to launch osTicket</strong></p>
+<p> On the right side of the window, click on browse *80 </p>
+<img width="623" alt="browse80" src="https://github.com/kirkgacias/osticket-prereqs/assets/158519921/53e70118-0357-4f5e-aa56-77560edec238">
+
+
+
+
+
+
+
+
+
+
 
 
 
